@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.top-row {
+  height: 60px;
+  border: 2px solid red;
+}
+
+.bottom-row {
+  height: 60px;
+  border: 2px solid red;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  height: 100%;
+}
+
+.display-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.whatToDo-message {
+  text-align: center;
+  font-size: 32px;
+}
+
+li {
+  text-align: center;
+  font-size: 32px;
+}
+
+#clock {
+  font-size: 150px;
+  font-weight: 500;
+}
+
+#greeting {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+#quote {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input[type=text] {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  border: 0;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  height: 50px;
+}
